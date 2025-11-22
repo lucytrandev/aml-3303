@@ -1,0 +1,33 @@
+Python
+
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+.venv/
+env/
+
+Data (Never commit large datasets)
+
+*.csv
+*.parquet
+*.pkl
+
+AWS / Credentials
+
+.aws/
+credentials
+secrets.json
+
+MLflow (Artifacts should not be committed)
+
+mlruns/
+.trash/
+
+IDEs
+
+.vscode/
+.idea/
+*.ipynb_checkpoints
